@@ -32,11 +32,8 @@ ActiveRecord::Schema.define(:version => 20130223204754) do
     t.string   "first_name"
     t.string   "last_name"
     t.string   "middle_initial"
-    t.string   "picture"
     t.string   "gender"
     t.date     "date_of_birth"
-    t.string   "city"
-    t.string   "state"
     t.string   "email",                  :default => "", :null => false
     t.string   "encrypted_password",     :default => "", :null => false
     t.string   "reset_password_token"
